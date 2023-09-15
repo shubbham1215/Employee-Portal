@@ -1,4 +1,4 @@
-package com.gfg.jbdl12employeeportal;
+package com.employeeportal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

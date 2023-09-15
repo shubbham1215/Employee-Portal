@@ -1,25 +1,22 @@
-package com.gfg.jbdl12employeeportal.manager;
+package com.employeeportal.manager;
 
 
-import com.gfg.jbdl12employeeportal.ForbiddenException;
-import com.gfg.jbdl12employeeportal.model.EmployeeCreationRequest;
-import com.gfg.jbdl12employeeportal.model.Employee;
-import com.gfg.jbdl12employeeportal.model.HR;
-import com.gfg.jbdl12employeeportal.model.Manager;
-import com.gfg.jbdl12employeeportal.model.Roles;
-import com.gfg.jbdl12employeeportal.repositories.EmployeeRepository;
-import com.gfg.jbdl12employeeportal.repositories.ManagerRepository;
-import com.gfg.jbdl12employeeportal.repositories.RoleRepository;
+import com.employeeportal.ForbiddenException;
+import com.employeeportal.repositories.EmployeeRepository;
+import com.employeeportal.repositories.ManagerRepository;
+import com.employeeportal.repositories.RoleRepository;
+import com.employeeportal.model.EmployeeCreationRequest;
+import com.employeeportal.model.Employee;
+import com.employeeportal.model.HR;
+import com.employeeportal.model.Manager;
+import com.employeeportal.model.Roles;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import sun.nio.ch.SelectorImpl;
 
 import java.util.ArrayList;
 import java.util.Arrays;

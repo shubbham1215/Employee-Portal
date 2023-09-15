@@ -1,4 +1,4 @@
-package com.gfg.jbdl12employeeportal.conf;
+package com.employeeportal.conf;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

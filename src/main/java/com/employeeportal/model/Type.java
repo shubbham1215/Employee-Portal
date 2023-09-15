@@ -1,4 +1,4 @@
-package com.gfg.jbdl12employeeportal.model;
+package com.employeeportal.model;
 
 public enum Type {
     EMPLOYEE, MANAGER, HR

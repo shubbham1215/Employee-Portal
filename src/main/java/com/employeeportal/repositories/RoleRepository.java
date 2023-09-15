@@ -1,6 +1,6 @@
-package com.gfg.jbdl12employeeportal.repositories;
+package com.employeeportal.repositories;
 
-import com.gfg.jbdl12employeeportal.model.Roles;
+import com.employeeportal.model.Roles;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

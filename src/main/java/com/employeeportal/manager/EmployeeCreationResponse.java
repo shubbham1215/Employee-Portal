@@ -1,4 +1,4 @@
-package com.gfg.jbdl12employeeportal.manager;
+package com.employeeportal.manager;
 
 import lombok.*;
 

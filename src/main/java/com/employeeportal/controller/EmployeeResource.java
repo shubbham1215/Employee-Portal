@@ -1,8 +1,8 @@
-package com.gfg.jbdl12employeeportal.controler;
+package com.employeeportal.controller;
 
-import com.gfg.jbdl12employeeportal.ForbiddenException;
-import com.gfg.jbdl12employeeportal.manager.EmployeeManager;
-import com.gfg.jbdl12employeeportal.model.EmployeeCreationRequest;
+import com.employeeportal.ForbiddenException;
+import com.employeeportal.manager.EmployeeManager;
+import com.employeeportal.model.EmployeeCreationRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

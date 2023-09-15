@@ -1,6 +1,5 @@
-package com.gfg.jbdl12employeeportal.model;
+package com.employeeportal.model;
 
-import com.gfg.jbdl12employeeportal.model.Employee;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

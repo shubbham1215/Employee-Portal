@@ -1,6 +1,6 @@
-package com.gfg.jbdl12employeeportal.conf;
+package com.employeeportal.conf;
 
-import com.gfg.jbdl12employeeportal.manager.EmployeeManager;
+import com.employeeportal.manager.EmployeeManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

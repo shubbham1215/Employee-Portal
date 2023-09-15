@@ -1,7 +1,7 @@
-package com.gfg.jbdl12employeeportal.manager;
+package com.employeeportal.manager;
 
-import com.gfg.jbdl12employeeportal.ForbiddenException;
-import com.gfg.jbdl12employeeportal.model.EmployeeCreationRequest;
+import com.employeeportal.ForbiddenException;
+import com.employeeportal.model.EmployeeCreationRequest;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
